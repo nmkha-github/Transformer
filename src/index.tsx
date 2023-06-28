@@ -6,10 +6,10 @@ import AppSnackbarProvider from './lib/providers/AppSnackBarProvider/AppSnackBar
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <AppSnackbarProvider>
-      <BrowserRouter>
+    <BrowserRouter>
+      <AppSnackbarProvider>
         <AppRoutes />
-      </BrowserRouter>
-    </AppSnackbarProvider>
+      </AppSnackbarProvider>
+    </BrowserRouter>
   </React.StrictMode>
 )

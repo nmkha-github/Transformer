@@ -4,7 +4,7 @@ import { useCallback, useMemo } from 'react'
 function useAppSnackbar() {
   const { enqueueSnackbar } = useSnackbar()
 
-  function getErrorString(errorRaw: any): string {
+  function getErrorString(errorRaw): string {
     if (typeof errorRaw == 'string') {
       return errorRaw
     } else if (errorRaw && typeof errorRaw == 'object') {
@@ -15,7 +15,7 @@ function useAppSnackbar() {
   }
 
   const showSnackbarError = useCallback(
-    (error: any) => {
+    (error) => {
       enqueueSnackbar(getErrorString(error), {
         variant: 'error',
         style: { whiteSpace: 'pre' }
@@ -25,7 +25,7 @@ function useAppSnackbar() {
   )
 
   const showSnackbarSuccess = useCallback(
-    (successString: any) => {
+    (successString) => {
       enqueueSnackbar(getErrorString(successString), {
         variant: 'success',
         style: { whiteSpace: 'pre' }

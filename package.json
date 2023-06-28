@@ -1,7 +1,7 @@
 {
   "name": "Transformer-front-end",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.tsx",
   "repository": "https://github.com/nmkha-github/Transformer-front-end.git",
   "author": "nmkha-gitlab <nguyenminhkha2001@gmail.com>",
   "license": "MIT",
@@ -9,6 +9,7 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.13.6",
+    "@xenova/transformers": "^2.3.0",
     "add": "^2.0.6",
     "axios": "^1.4.0",
     "notistack": "^3.0.1",
