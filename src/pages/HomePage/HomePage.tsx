@@ -116,6 +116,7 @@ const HomePage = () => {
                       borderRadius: 50,
                       cursor: 'pointer'
                     }}
+                    onClick={() => window.open('https://www.youtube.com/watch?v=SuqU904ZHA4&ab_channel=Fireship')}
                   >
                     Xem Demo
                   </motion.button>

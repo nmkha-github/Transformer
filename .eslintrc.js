@@ -32,6 +32,8 @@ module.exports = {
     node: true
   },
   rules: {
+    'react-hooks/exhaustive-deps': 'off',
+    'jsx-a11y/media-has-caption': 'off',
     // eslint-disable-next-line import/named
     'import/named': 'off',
     // Tắt rule yêu cầu import React trong file jsx
