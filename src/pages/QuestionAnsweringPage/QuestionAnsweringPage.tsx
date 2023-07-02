@@ -109,7 +109,7 @@ const QuestionAnsweringPage = () => {
               onChange={(event) => {
                 setContext(event.target.value)
               }}
-              placeholder={'Nhập đoạn ngữ cảnh...'}
+              placeholder={'Nhập đoạn văn...'}
               sx={{
                 fontSize: '1rem',
                 fontWeight: 400,
@@ -123,7 +123,8 @@ const QuestionAnsweringPage = () => {
             />
             <Box style={{ height: 4 }} />
             <Typography>
-              <strong>Hướng dẫn: </strong> Nhập ngữ cảnh và câu hỏi
+              <strong>Hướng dẫn: </strong> Nhập đoạn văn chứa thông tin và câu hỏi đối với thông tin đó sau đó nhấn
+              Enter và nhận được câu trả lời từ máy trong khung chat
             </Typography>
           </Box>
         </Box>

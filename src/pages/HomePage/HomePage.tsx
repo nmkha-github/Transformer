@@ -45,7 +45,11 @@ const HomePage = () => {
                     <Typography style={{ display: 'flex', justifyContent: 'center' }} fontWeight='bold'>
                       Giới thiệu
                     </Typography>
-                    <Typography>abc</Typography>
+                    <Typography>
+                      Transformer là một mô hình đã tạo nên bước ngoặt lớn trong việc xử lý ngôn ngữ tự nhiên ban đầu và
+                      được sử dụng rộng rãi ngày nay mô hình RoBERTa (Robustly Optimized BERT Approach), ra đời năm 2019
+                      bởi Facebook AI , một mô hình được tối ưu dựa trên mô hình BERT được ra đời năm 2018 bởi Google.
+                    </Typography>
                   </Box>
                 </Box>
               )}
@@ -96,10 +100,10 @@ const HomePage = () => {
                 Question Answering With Transformer
               </Typography>
               <Typography variant='h5' color='rgba(255, 255, 255, 0.6)'>
-                Mô hình transformers
+                Mô hình RoBERTa
               </Typography>
 
-              <Box style={{ marginTop: 16, display: 'flex', alignItems: 'center' }}>
+              {/* <Box style={{ marginTop: 16, display: 'flex', alignItems: 'center' }}>
                 <BiMoviePlay size={32} />
                 <Box style={{ width: 8 }} />
                 <Box>
@@ -121,7 +125,7 @@ const HomePage = () => {
                     Xem Demo
                   </motion.button>
                 </Box>
-              </Box>
+              </Box> */}
 
               <Box style={{ marginTop: 16, display: 'flex' }}>
                 <motion.button
